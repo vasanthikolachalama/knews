@@ -1,0 +1,34 @@
+•	On create New Category option, need to change CLIENTS to be a dropdown of ROLES
+•	This defines who can view each of the folders/categories
+•	This role-based security is only for non-admin users, Admin should see all categories – Kindly confirm
+•	New Article
+•	“Name” changed to “Title”
+•	Remove “Client”
+•	Change “Message” to “Description”
+•	Need ability to attach or upload documents
+•	Search capabilities need to be able to search not only Titles and Words but also within the attached documents for key words
+•	Automation Library – Ability to choose specific article which will have some action like “Create Enhancement” – It should create new RPA intake with Enhancement prefix to title.
+i.	Carry over intake title as “Enhancement: {Title}”
+ii.	Attachment to Files tab on intake
+iii.	Also pull over SDD files from original intake to new intake under Files tab
+iv.	Description as Problem Statement
+v.	Business Unit, Functional Area – None/Blank – kept BU and FA of current user
+vi.	Automation Description – Comes directly from previous/original intake
+vii.	Stakeholders, benefits, workgroups, Acceptance tab – keep blank
+viii.	Pull over applications from previous/original intake
+•	Display the returned search
+•	DO NOT CHANGE ANY CONFIGURABLE ROLE BASED ACCESS FOR KNOWLEDGE BASE 
+•	Automatically add PDD to the Automation Library when Process Documentation Creation/Review Activity is Completed.  This applies to ALL engagement models and project types.
+•	Title = Title of intake
+•	Description = Problem Statement from intake
+•	Attachment = PDD from PDD tab from intake
+•	
+•	Automatically add SDD to the Technical Library when Solution Creation/Review Activity is Completed.  This applies to ALL engagement models and project types.
+•	Title = Title of intake
+•	Description = Problem Statement from intake
+•	Attachment = SDD from SDD tab from intake
+•	Migration – We have reused data from PDD/SDD instead of duplicating for articles
+•	Take ALL existing (in-flight/completed) intakes and migrate PDD and SDD as stated above
+•	Do not allow manual creation of articles in Technical and Automation libraries
+•	We will not have upload and delete file feature for Automation Library and Technical Library, it will be drive from PDD/SDD
+•	
